@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+body{
+	background-color:grey;
+}
+.enviar{
+	margin:20px 0px 0px 20px;
+}
+.legend{
+	font-size:20px;
+}

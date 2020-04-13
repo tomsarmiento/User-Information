@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Formulario de registro</title>
+<LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css">
+</head>
+<body>
+    <form action="Formulario" method="get">
+    	<fieldset>
+    		<legend class="legend">Formulario: </legend>
+        	Nombre: <input type="text" name="nombre">
+        	Apellido: <input type="text" name="apellido">
+        	Ciudad: <input type="text" name="ciudad">
+        	Lenguaje Favorito: <select class="lenguajes" name="lenguajes">
+        		<option value="unknown">Unknown</option>
+            	<option value="java">Java</option>
+            	<option value="c++">C++</option>
+        	</select>
+			<input type="submit" value="Enviar" class="enviar">
+		</fieldset>
+    </form>
+</body>
+</html>
